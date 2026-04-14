@@ -17,7 +17,7 @@ Intézményünk teljes körű ápolást és gondozást biztosít daganatos, kró
 A nyári szabadságolási időszakban sajnos nem tudjuk folyamatosan biztosítani a telefonos elérhetőséget.
 Kérjük, lehetőség szerint e-mailben keressenek bennünket.
 
-_Köszönjük megértésüket!!!!!!!!_
+_Köszönjük megértésüket!!!_
 
 </div>
 
