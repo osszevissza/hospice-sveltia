@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+
+backend:
+  name: github
+  repo: osszevissza/hospice-sveltia
+
+media_folder: /static/img
+public_folder: /img
+
+collections:
+  - name: tartalom
+    label: Tartalom
+    label_singular: Tartalom
+    folder: /content
+    fields:
+      - { label: Cím, name: title, widget: string }
+      - { label: Törzs, name: body, widget: richtext }
+    index_file:
+      fields:
+        - { label: Cím, name: title }
+        - { label: Törzs, name: body, widget: richtext }

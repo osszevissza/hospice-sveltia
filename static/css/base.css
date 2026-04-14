@@ -1,0 +1,288 @@
+/* =========================================================
+ *  01. RESET
+ * = *======================================================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* =========================================================
+ *  02. ROOT / VARIABLES
+ * = *======================================================== */
+:root {
+  --font-family-base: "GeneralSans", sans-serif;
+  --font-family-title: "Playfair", serif;
+
+  --color-blue: #2f5d9c;
+  --color-lightblue: #e8e8f0;
+  --color-green: #4caf7f;
+  --color-white: #f4f1f5;
+  --color-link: #256347;
+  --color-header-nav: #e7f0f8;
+  --color-blue-dark: #1e3f6f;
+
+  --color-button-start: #2f5d9c;
+  --color-button-end: #4caf7f;
+
+  /* Gradient variations */
+  --gradient-primary: linear-gradient(135deg, var(--color-button-start), var(--color-button-end));
+  --gradient-subtle: linear-gradient(135deg, rgba(47, 93, 156, 0.1), rgba(76, 175, 127, 0.1));
+  --gradient-accent: linear-gradient(135deg, var(--color-accent-light), var(--color-accent-warm));
+}
+
+/* =========================================================
+ *  03. BASE / DOCUMENT
+ * = *======================================================== */
+/* ====== ALAP ====== */
+html {
+  line-height: 1.6;
+  min-height: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-base);
+  font-size: 1rem;
+  background-color: var(--color-white);
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* =========================================================
+ *  08. TYPOGRAPHY
+ * = *======================================================== */
+h1,
+h2,
+h3 {
+    font-family: var(--font-family-title);
+    line-height: 1.25;
+    font-weight: 400;
+}
+
+/* Főoldal cím */
+h1 {
+    font-size: 2.4rem;
+    color: var(--color-blue);
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* Fő szekciók */
+h2 {
+    font-size: 2rem;
+    color: var(--color-blue);
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Alszekciók */
+h3 {
+    font-size: 1.7rem;
+    color: var(--color-blue-dark);
+    margin-top: 1.25rem;
+    margin-bottom: 0.35rem;
+}
+
+h1 + *,
+h2 + *,
+h3 + * {
+    margin-top: 1rem;
+}
+
+/* ----- Content links ----- */
+article a {
+    font-weight: 400;
+    color: var(--color-link);
+    text-decoration: none;
+    background-image: linear-gradient(
+        90deg,
+        rgba(47, 93, 156, 0.7),
+                                      rgba(76, 175, 127, 0.7)
+    );
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    background-position: 0 100%;
+    padding-bottom: 3px;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+article a:hover,
+article a:focus-visible,
+article a:active {
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    background-image: linear-gradient(
+        90deg,
+        var(--color-button-start),
+                                      var(--color-button-end)
+    );
+    background-size: 100% 2px;
+}
+
+
+/* =========================================================
+ *  05. ACCESSIBILITY
+ * = *======================================================== */
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    background: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    left: 1rem;
+    top: 1rem;
+}
+
+:focus-visible {
+    outline: 2px solid var(--color-blue);
+    outline-offset: 2px;
+}
+
+nav a:focus-visible {
+    outline: 3px solid var(--color-blue);
+    outline-offset: 2px;
+    background: rgba(47, 93, 156, 0.1);
+}
+/* Footer navigation focus */
+footer nav a:focus-visible {
+    outline: 3px solid var(--color-white);
+    outline-offset: 2px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* =========================================================
+ *  19. ACCESSIBILITY ENHANCEMENTS
+ * = *======================================================== */
+/* High contrast mode support */
+@media (prefers-contrast: more) {
+    nav a,
+    footer nav a {
+        border: 2px solid currentColor;
+    }
+
+    nav a:focus-visible,
+    footer nav a:focus-visible {
+        outline: 4px solid currentColor;
+    }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+
+    nav a:hover,
+    nav a[aria-current="page"],
+    .service-card:hover,
+    .price-card:hover,
+    .org-card:hover,
+    .info-card:hover {
+        transform: none !important;
+    }
+}
+
+
+/* =========================================================
+ *  12. SCROLL TO TOP
+ * = *======================================================== */
+.scroll-to-top {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    width: 44px;
+    height: 44px;
+    display: grid;
+    place-items: center;
+    border-radius: 999px;
+    background: var(--color-blue);
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    z-index: 9999;
+}
+
+.scroll-to-top.visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.scroll-to-top:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 2px;
+}
+
+/* =========================================================
+ *  NEWS INFO-CARD MODIFIER
+ * ========================================================= */
+.info-card--news {
+    background: linear-gradient(
+        180deg,
+        #ffffff,
+        #fff0e8
+    );
+    border: 2px solid rgba(47, 93, 156, 0.15);
+    box-shadow:
+    0 6px 20px rgba(0, 0, 0, 0.12),
+    0 0 0 1px rgba(255, 255, 255, 0.9) inset;
+    position: relative;
+    margin: 1.5rem 0 2.5rem;
+    padding: 1.5rem 1.75rem;
+}
+
+/* Optional: Add a subtle top accent */
+.info-card--news::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: var(--gradient-primary);
+    border-radius: 0.75rem 0.75rem 0 0;
+}
+
+/* Increase text size slightly for emphasis */
+.info-card--news > * {
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+/* Make the heading stand out more */
+.info-card--news h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.75rem;
+    color: var(--color-blue-dark);
+}
+
+/* Style the italic note differently */
+.info-card--news em {
+    display: block;
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 0.5rem;
+    border-left: 3px solid var(--color-green);
+    font-style: normal;
+    font-weight: 500;
+    color: var(--color-blue-dark);
+}
+

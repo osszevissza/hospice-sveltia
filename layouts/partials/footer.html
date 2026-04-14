@@ -1,0 +1,18 @@
+<footer>
+  <nav aria-label="Lábléc navigáció">
+    <ul>
+      {{ range .Site.Menus.footer }}
+        <li>
+          <a href="{{ .URL }}">
+            {{ .Name }}
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </nav>
+
+  <div class="footer-logo">
+    <img src="{{ "img/logohospice.png" | relURL }}" alt="Hospice logó" class="site-logo">
+    <p>© {{ now.Year }} {{ .Site.Title }}</p>
+  </div>
+</footer>

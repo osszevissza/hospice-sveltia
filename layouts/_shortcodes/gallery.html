@@ -1,0 +1,27 @@
+{{ $pattern := .Get "match" | default "img/*" }}
+{{ $images := .Page.Resources.Match $pattern }}
+
+<div class="gallery-grid" role="list">
+  {{ range $i, $img := $images }}
+    <figure class="gallery-item" role="listitem">
+      <button
+        class="gallery-thumb"
+        type="button"
+        data-full="{{ $img.RelPermalink }}"
+        aria-label="Kép megnyitása nagy nézetben">
+        <img
+  src="{{ $img.RelPermalink }}"
+  width="{{ $img.Width }}"
+  height="{{ $img.Height }}"
+  loading="lazy"
+  decoding="async"
+  alt="{{ $img.Name | replace "-" " " | replace ".webp" "" | title }}">
+      </button>
+    </figure>
+  {{ end }}
+</div>
+
+<dialog class="gallery-dialog" id="galleryDialog" aria-label="Kép nagy nézet">
+  <button class="gallery-close" type="button" aria-label="Bezárás">×</button>
+  <img class="gallery-full" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="">
+</dialog>

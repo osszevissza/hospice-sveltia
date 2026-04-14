@@ -1,0 +1,414 @@
+/* =========================================================
+ *  09. DIVIDERS
+ * = *======================================================== */
+.double-divider {
+    height: 25px;
+    margin: 2.5rem 0;
+    position: relative;
+}
+
+.double-divider::before,
+.double-divider::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 8px;
+    background: var(--gradient-primary);
+}
+
+.double-divider::before {
+    top: 0;
+    clip-path: polygon(0 5px, 100% 0, 100% 100%, 0 100%);
+    opacity: 0.8;
+}
+
+.double-divider::after {
+    bottom: 0;
+    clip-path: polygon(0 0, 100% 3px, 100% 100%, 0 100%);
+    opacity: 0.4;
+}
+
+
+/* =========================================================
+ *  15. CARD SYSTEMS
+ * = *======================================================== */
+
+/* ----- Services grid / service cards ----- */
+.services-grid {
+    display: block;
+}
+
+.service-card {
+    margin-bottom: 1rem;
+    padding: 1.3rem 1.5rem 1.5rem 1.5rem;
+    background: linear-gradient(
+        180deg,
+        rgba(255,255,255,0.96),
+                                rgba(255,238,228,0.95)
+    );
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border: 1px solid rgba(47, 93, 156, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.service-card:hover,
+.price-card:hover,
+.org-card:hover,
+.info-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+/* ----- Shared warm card styles ----- */
+.info-card,
+.price-card,
+.org-card {
+    padding: 1.3rem 1.5rem 1.5rem;
+    background: linear-gradient(
+        180deg,
+        #ffffff,
+        #fceae2
+    );
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border: 1px solid rgba(47, 93, 156, 0.08);
+}
+
+/* ----- Info card ----- */
+.info-card {
+    margin: 1rem 0 2rem;
+}
+
+.info-card > :first-child {
+    margin-top: 0;
+}
+
+.info-card > :last-child {
+    margin-bottom: 0;
+}
+
+/* ----- Price cards ----- */
+.price-grid {
+    display: grid;
+    gap: 1rem;
+    margin: 1rem 0 1.5rem;
+}
+
+.price-card h3 {
+    margin: 0 0 0.4rem;
+    font-size: 1.35rem;
+    line-height: 1.2;
+    color: var(--color-blue-dark);
+}
+
+.price-value {
+    margin: 0;
+    font-size: 1.45rem;
+    font-weight: 600;
+    color: var(--color-blue);
+    line-height: 1.2;
+}
+
+.price-note {
+    margin-top: 0.35rem;
+    font-size: 0.95rem;
+}
+
+/* ----- Org cards ----- */
+.org-grid {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.org-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    color: var(--color-blue-dark);
+}
+
+.org-card > :last-child {
+    margin-bottom: 0;
+}
+
+.org-card ul {
+    margin: 0.5rem 0 0;
+    padding-left: 1.2rem;
+}
+
+.org-card p {
+    margin: 0.35rem 0;
+}
+
+/* ----- Staff list ----- */
+.staff-list {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+.staff-list li {
+    margin-bottom: 0.45rem;
+}
+
+/* ----- Card heading override ----- */
+.price-card h3,
+.org-card h3,
+.info-card h3 {
+    font-size: 1.6rem;
+    line-height: 1.2;
+    margin-bottom: 0.45rem;
+}
+
+/* ====== Warning LIST ====== */
+
+.warning-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0.5rem;
+}
+
+.warning-list li {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 0.6rem;
+    line-height: 1.6;
+}
+
+.warning-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.2rem;
+    width: 1.1rem;
+    height: 1.1rem;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%231e3f6f"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 15a1.25 1.25 0 110 2.5A1.25 1.25 0 0112 17zm1-3h-2V7h2v7z"/></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    opacity: 0.7;
+}
+
+/* =========================================================
+ *  14. LIST STYLES
+ * = *======================================================== */
+
+/* ----- Heart list ----- */
+.heart-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.heart-list li {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+.heart-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.25rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%232f5d9c"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/* ----- Service list: base + themed icons ----- */
+.service-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.service-list li {
+    position: relative;
+    padding-left: 2.5rem;
+    margin-bottom: 1rem;
+    min-height: 1.5rem;
+}
+
+/* Individual icon styles */
+.service-list li:nth-child(1)::before { /* Complete care */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%232f5d9c"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>');
+}
+
+.service-list li:nth-child(2)::before { /* Medical supervision */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%232f5d9c"><path d="M19 6h-2c0-2.76-2.24-5-5-5S7 3.24 7 6H5c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-7-3c1.66 0 3 1.34 3 3H9c0-1.66 1.34-3 3-3zm7 17H5V8h14v12z"/></svg>');
+}
+
+.service-list li:nth-child(3)::before { /* Physical therapy */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%232f5d9c"><path d="M4 9h4V5H4v4zm0 6h4v-4H4v4zm6 0h4v-4h-4v4zm6 0h4v-4h-4v4zm-6-6h4V5h-4v4zm6-4v4h4V5h-4z"/></svg>');
+}
+
+.service-list li:nth-child(4)::before { /* Mental support */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%232f5d9c"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/></svg>');
+}
+
+.service-list li:nth-child(5)::before { /* Spiritual care */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%232f5d9c"><path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z"/></svg>');
+}
+
+.service-list li:nth-child(6)::before { /* Personalized diet */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%232f5d9c"><path d="M18.06 22.99h1.66c.84 0 1.53-.64 1.63-1.46L23 5.05h-5V1h-1.97v4.05h-4.97l.3 2.34c1.71.47 3.31 1.32 4.27 2.26 1.44 1.42 2.43 2.89 2.43 5.29v8.05zM1 21.99V21h15.03v.99c0 .55-.45 1-1.01 1H2.01c-.56 0-1.01-.45-1.01-1zm15.03-7c0-4-9.05-4-9.05 0h9.05zM1.02 17h9v2h-9z"/></svg>');
+}
+
+/* ----- Service list: fixed alignment override ----- */
+.service-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.service-list li {
+    position: relative;
+    padding-left: 2.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    display: flex;
+    align-items: center;
+    min-height: 1.5rem;
+}
+
+.service-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: block;
+}
+
+/* ----- Check list ----- */
+.check-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.check-list li {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+    display: flex;
+    align-items: center;
+}
+
+.check-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.25rem;
+    height: 1.25rem;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%234caf7f"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/* =========================================================
+ *  TAX NUMBER BOX (inside info-card)
+ * ========================================================= */
+
+.tax-number-box {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 1rem;
+    border-radius: 8px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+    border: 1px solid rgba(47, 93, 156, 0.1);
+}
+
+.tax-number-box strong {
+    color: var(--color-blue);
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.tax-number-box span {
+    font-family: monospace;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #1e3f6f;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    border: 1px solid rgba(47, 93, 156, 0.15);
+    flex-grow: 1;
+    min-width: 0; /* Allows text to shrink */
+    overflow-wrap: break-word;
+    word-break: break-all;
+}
+
+.tax-number-box button {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    background: linear-gradient(135deg, #e6b8c9, #d8a2b5);
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.tax-number-box button:hover {
+    background: linear-gradient(135deg, #d8a2b5, #c98da0);
+    transform: translateY(-1px);
+}
+
+.tax-number-box button:active {
+    transform: translateY(0);
+}
+
+/* =========================================================
+ *  NEWS CARD
+ * ========================================================= */
+.info-card--highlight {
+    position: relative;
+
+    background: linear-gradient(
+        180deg,
+        #ffffff,
+        #fdf1f5
+    );
+
+    border: 1px solid rgba(214, 162, 181, 0.4);
+    box-shadow: 0 6px 18px rgba(214, 162, 181, 0.25);
+}
+
+.info-card--highlight::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 0.75rem;
+    padding: 1px; /* thickness of border */
+
+    background: linear-gradient(135deg, #e6b8c9, #d8a2b5);
+
+    -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+
+    pointer-events: none;
+}
+
+.highlight-title {
+    color: #a85d79;
+}

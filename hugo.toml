@@ -1,0 +1,63 @@
+baseURL = "https://underdogguild.hu/"
+languageCode = "hu"
+title = "Hospice Szeretetszolgálat Alapítvány Tatabánya"
+
+[params]
+description = "Teljes körű ápolás és gondozás daganatos és krónikus betegek számára a Nefelejcs Ápolási Intézetben."
+
+[menus]
+
+  [[menus.main]]
+    name = "Kezdőlap"
+    pageRef = "/"
+    weight = 10
+
+  [[menus.main]]
+    name = "Rólunk"
+    pageRef = "/rolunk"
+    weight = 30
+
+  [[menus.main]]
+    name = "Ellátás"
+    pageRef = "/ellatas"
+    weight = 40
+
+  [[menus.main]]
+    name = "Kölcsönzés"
+    pageRef = "/kolcsonzes"
+    weight = 60
+
+  [[menus.main]]
+    name = "Alapelvek"
+    pageRef = "/alapelvek"
+    weight = 50
+
+  [[menus.main]]
+  name = "Kapcsolat"
+  pageRef = "/kapcsolat"
+  weight = 70
+
+  [[menus.main]]
+  name = "Felvétel és díjak"
+  pageRef = "/felvetel"
+  weight = 20
+
+  [[menus.footer]]
+    name = "Impresszum"
+    pageRef = "/impresszum"
+    weight = 10
+
+  [[menus.footer]]
+    name = "Adatkezelés és dokumentumok"
+    pageRef = "/adatkezeles"
+    weight = 20
+
+  [[menus.footer]]
+    name = "Adományozás (1%)"
+    pageRef = "/adomanyozas"
+    weight = 30
+
+# html működjön .md-ben
+[markup.goldmark.renderer]
+unsafe = true
+hardWraps = true

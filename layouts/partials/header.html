@@ -1,0 +1,15 @@
+<header class="site-header" id="site-header">
+  <div class="header-inner">
+    <div class="title-box" id="title-box">
+      <h1 class="site-title">
+        <a href="{{ "/" | relURL }}">
+  <img src="{{ "img/logohospice.png" | relURL }}" alt="Hospice logó" class="site-logo">
+  {{ .Site.Title }}
+</a>
+      </h1>
+    </div>
+    <div id="site-nav">
+      {{ partial "nav.html" . }}
+    </div>
+  </div>
+</header>
