@@ -1,6 +1,7 @@
 ---
-title: "Adományozás"
+title: Adományozás
 ---
+
 ## 1%, hogy méltón ápolhassuk azt, aki önhöz tartozik
 
 {{< introgrid src="ado_egysz.webp" alt="Adó 1% felajánlása" >}}
@@ -25,9 +26,9 @@ Az ön személyi jövedelemadójának 1%-a is hozzájárul:
 function copyTaxNumber(btn) {
   const text = document.getElementById("tax-number").innerText;
   navigator.clipboard.writeText(text);
-  
+
   btn.innerText = "Kimásolva ✓";
-  
+
   setTimeout(() => {
     btn.innerText = "Másolás";
   }, 2000);
@@ -46,6 +47,7 @@ Ne hagyja elveszni az 1%-át, ajánlja fel időben!
 [Nyilatkozat az 1%-ról →](/docs/21EGYSZA.pdf)
 
 ## Köszönjük bizalmukat!
+
 Örömünkre szolgál, hogy időről időre köszönetet kapunk munkánkért. Ezek a visszajelzések megerősítenek bennünket abban, hogy jó úton járunk.
 
 [V. G. E. levele →](/docs/lev_vge.pdf)
