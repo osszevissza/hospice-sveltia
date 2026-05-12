@@ -21,3 +21,16 @@ collections:
       fields:
         - { label: Cím, name: title }
         - { label: Törzs, name: body, widget: richtext }
+  - name: galeria
+    label: Galéria
+    files:
+      - label: Galéria oldal
+        name: galeria
+        file: /content/galeria/index.md
+
+        fields:
+          - { label: Cím, name: title, widget: string }
+          - { label: Tartalom, name: body, widget: markdown }
+
+    media_folder: /content/galeria/img
+    public_folder: /galeria/img
