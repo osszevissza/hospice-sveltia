@@ -6,8 +6,8 @@ backend:
   branch: main
   base_url: https://sveltia-cms-auth.hospicecf-6sicp.workers.dev
 
-media_folder: /static/img
-public_folder: /img
+media_folder: /static/
+public_folder: /
 
 collections:
   - name: tartalom
@@ -34,8 +34,3 @@ collections:
 
     media_folder: /content/galeria/img
     public_folder: /galeria/img
-    
-  - name: dokumentumok
-    label: Dokumentumok
-    folder: /static/docs
-    create: true
