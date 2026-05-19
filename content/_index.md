@@ -12,13 +12,6 @@ Intézményünk teljes körű ápolást és gondozást biztosít daganatos, kró
 
 <div class="info-card info-card--highlight">
 
-**Telefonos elérhetőség nyáron**
-
-A nyári szabadságolási időszakban sajnos nem tudjuk folyamatosan biztosítani a telefonos elérhetőséget.
-Kérjük, lehetőség szerint e-mailben keressenek bennünket.
-
-_Megértésüket köszönjük!_
-
 </div>
 
 <div class="double-divider"></div>
@@ -42,35 +35,7 @@ Szombat, vasárnap és ünnepnap: 10:00–12:00 és 14:00–16:00
 
 [Galéria →](/galeria/)
 
-## Ápolási díjak
-
-Az alábbi díjak 2025. február 1-től érvényesek:
-
-<div class="price-grid">
-
-<div class="price-card">
-<h3>Krónikus beteg</h3>
-<p class="price-value">11 000 Ft/nap</p>
-</div>
-
-<div class="price-card">
-<h3>Tumoros beteg</h3>
-<p class="price-value">9 000 Ft/nap</p>
-</div>
-
-<div class="price-card">
-<h3>Átmeneti elhelyezés</h3>
-<p class="price-value">15 500 Ft/nap</p>
-</div>
-
-<div class="price-card">
-<h3>Intézményi hozzájárulás</h3>
-<p class="price-value">150 000 Ft/félév</p>
-</div>
-
-</div>
-
-[Részletek a felvételről és a díjakról →](/felvetel/)
+## 
 
 ## Ellátási területek és szolgáltatások
 
