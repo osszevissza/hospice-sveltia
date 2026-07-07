@@ -45,12 +45,9 @@ A nyári szabadásgolási időszakra való tekintettel sajálatos módon nem tud
 - 10 éven aluli gyermekek látogatását nem javasoljuk. Amennyiben erre a család feltétlenül igény tart, 10 éven aluli gyermek max. 10 perces látogatást tehet szülői (felnőtt) felügyelet mellett. 
 - A látogatást koordináló dolgozó útmutatásait be kell tartani!
 - Megértésüket és együttműködésük tisztelettel köszönöm!
-
-### Látogatók száma és időtartama
-
-- Egy beteghez egy adott látogatási időben legfeljebb **két látogató** érkezhet.
-- A látogatás időtartama személyenként legfeljebb **30 perc**, vagy egy látogató esetén maximum **60 perc**, amennyiben a körülmények ezt lehetővé teszik.
 - Fekvőbeteg esetében egy szobában egyszerre legfeljebb annyi látogató tartózkodhat, ahány betegágy van a szobában.
+
+### 
 
 <div class="intro-grid">
   <div>
