@@ -51,17 +51,3 @@ A nyári szabadásgolási időszakra való tekintettel sajálatos módon nem tud
 
 <div class="intro-grid">
   <div>
-
-<h3>Teraszos és udvari látogatás</h3>
-
-- Mobilizálható betegek esetén – időjárástól függően – javasoljuk az intézmény teraszának vagy udvarának igénybevételét.
-- Amennyiben a látogatás az udvaron történik, a látogatók létszáma nincs korlátozva.
-
-<h3>Gyermekek látogatása</h3>
-
-10 éven aluli gyermek látogatását nem javasoljuk.
-Amennyiben a család erre igényt tart, 10 éven aluli gyermek legfeljebb 10 perces látogatást tehet felnőtt felügyelete mellett.
-
-</div>
-  {{< media src="terasz.webp" alt="Terasz" >}}
-</div>
