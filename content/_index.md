@@ -12,6 +12,10 @@ Intézményünk teljes körű ápolást és gondozást biztosít daganatos, kró
 
 <div class="info-card info-card--highlight">
 
+Ezúton tájékoztatjuk Önöket, hogy a nyári szabadságolások miatt,
+
+a telefonos elérhetőségünk akadozhat.
+
 </div>
 
 <div class="double-divider"></div>
