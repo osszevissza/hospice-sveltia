@@ -75,10 +75,7 @@ Intézményi hozzájárulás: <strong>150 000 Ft / félév</strong>
 
 <p class="price-note">
 Intézményi hozzájárulás: <strong>150 000 Ft / félév</strong>
-</p>
-</div>
 
-<p>
 A hozzájárulási díj fizetésének feltételei megegyeznek a krónikus betegek tartós elhelyezésénél leírtakkal.
 </p>
 </div>
