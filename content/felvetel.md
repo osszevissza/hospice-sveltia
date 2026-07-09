@@ -66,6 +66,8 @@ Az átmeneti elhelyezésre abban az esetben van lehetőség, ha az intézménybe
 <p class="price-note">
 Állandó jelleggel teljes körű ápolást és gondozást nyújtunk az arra rászorulók számára ápolási intézetünkben.
 Az elhelyezésre abban az esetben van lehetőség, ha az intézményben szabad ágykapacitás áll rendelkezésre.
+
+Intézményi hozzájárulás: <strong>150 000 Ft / félév</strong> A hozzájárulási díjat az első havi díjjal együtt szükséges rendezni.
 </p>
 </div>
 
@@ -75,7 +77,7 @@ Az elhelyezésre abban az esetben van lehetőség, ha az intézményben szabad �
 
 <p class="price-note">
 Állandó jelleggel teljes körű ápolást és gondozást nyújtunk az arra rászorulók számára ápolási intézetünkben.
-Az elhelyezésre abban az esetben van lehetőség, ha az intézményben szabad ágykapacitás áll rendelkezésre.
+Az elhelyezésre abban az esetben van lehetőség, ha az intézményben szabad ágykapacitás áll rendelkezésre. Intézményi hozzájárulás: <strong>150 000 Ft / félév</strong> A hozzájárulási díjat az első havi díjjal együtt szükséges rendezni.
 </p>
 </div>
 
