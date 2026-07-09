@@ -67,14 +67,12 @@ Az átmeneti elhelyezésre abban az esetben van lehetőség, ha az intézménybe
 Intézményi hozzájárulás: <strong>150 000 Ft / félév</strong>
 </p>
 
-<p>
-A szolgáltatás megkezdésekor az Ápolt és a Hozzátartozó / Törvényes képviselő hozzájárulási díjként
-félévente összesen <strong>150 000 Ft</strong> díjat kötelesek megfizetni, egyetemlegesen.
-</p>
+<div class="price-card">
+<h3>Tumoros betegek tartós elhelyezése</h3>
+<p class="price-value">9 000 Ft / nap</p>
 
-<p>
-A hozzájárulási díj a szolgáltatás megkezdésétől <strong>6 hónapra előre fizetendő</strong>.
-A megfizetett hozzájárulási díj a szolgáltatás megszűnése esetén időarányosan nem igényelhető vissza.
+<p class="price-note">
+Intézményi hozzájárulás: <strong>150 000 Ft / félév</strong>
 </p>
 
 <p>
