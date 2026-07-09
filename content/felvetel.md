@@ -70,7 +70,6 @@ A hozzájárulási díjat az első havi díjjal együtt szükséges rendezni.
 </p>
 </div>
 
-</p>
 <div class="price-card">
 <h3>Tumoros betegek tartós elhelyezése</h3>
 <p class="price-value">9 000 Ft / nap</p>
