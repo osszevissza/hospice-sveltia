@@ -64,9 +64,8 @@ Az átmeneti elhelyezésre abban az esetben van lehetőség, ha az intézménybe
 <p class="price-value">11 000 Ft / nap</p>
 
 <p class="price-note">
-Intézményi hozzájárulás: <strong>150 000 Ft / félév</strong>
-
-A hozzájárulási díjat az első havi díjjal együtt szükséges rendezni.
+Állandó jelleggel teljes körű ápolást és gondozást nyújtunk az arra rászorulók számára ápolási intézetünkben.
+Az elhelyezésre abban az esetben van lehetőség, ha az intézményben szabad ágykapacitás áll rendelkezésre.
 </p>
 </div>
 
@@ -75,9 +74,8 @@ A hozzájárulási díjat az első havi díjjal együtt szükséges rendezni.
 <p class="price-value">9 000 Ft / nap</p>
 
 <p class="price-note">
-Intézményi hozzájárulás: <strong>150 000 Ft / félév</strong>
-
-A hozzájárulási díj fizetésének feltételei megegyeznek a krónikus betegek tartós elhelyezésénél leírtakkal.
+Állandó jelleggel teljes körű ápolást és gondozást nyújtunk az arra rászorulók számára ápolási intézetünkben.
+Az elhelyezésre abban az esetben van lehetőség, ha az intézményben szabad ágykapacitás áll rendelkezésre.
 </p>
 </div>
 
