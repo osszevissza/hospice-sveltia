@@ -68,11 +68,6 @@ Intézményi hozzájárulás: <strong>150 000 Ft / félév</strong>
 </p>
 </div>
 
-<p>
-A hozzájárulási díjat az első havidíjjal szükséges megfizetni.
-</p>
-</div>
-
 </p>
 <div class="price-card">
 <h3>Tumoros betegek tartós elhelyezése</h3>
