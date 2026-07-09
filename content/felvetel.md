@@ -65,6 +65,8 @@ Az átmeneti elhelyezésre abban az esetben van lehetőség, ha az intézménybe
 
 <p class="price-note">
 Intézményi hozzájárulás: <strong>150 000 Ft / félév</strong>
+
+A hozzájárulási díjat az első havi díjjal együtt szükséges rendezni.
 </p>
 </div>
 
