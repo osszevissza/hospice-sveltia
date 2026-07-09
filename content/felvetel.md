@@ -67,6 +67,9 @@ Az átmeneti elhelyezésre abban az esetben van lehetőség, ha az intézménybe
 Intézményi hozzájárulás: <strong>150 000 Ft / félév</strong>
 </p>
 
+</p>
+</div>
+
 <div class="price-card">
 <h3>Tumoros betegek tartós elhelyezése</h3>
 <p class="price-value">9 000 Ft / nap</p>
