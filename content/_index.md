@@ -23,8 +23,7 @@ Megértésüket köszönjük!
 Tatabánya, 2026. augusztus 6.
 
 Dezső Tibor
-
-intézményvezető
+Intézményvezető
 
 </div>
 
