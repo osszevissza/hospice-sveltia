@@ -12,7 +12,19 @@ Intézményünk teljes körű ápolást és gondozást biztosít daganatos, kró
 
 <div class="info-card info-card--highlight">
 
-Ezúton tájékoztatjuk Önöket, hogy a nyári szabadságolások miatt, a telefonos elérhetőségünk akadozhat.
+Tisztelt Hozzátartozók!
+
+Felhívjuk figyelmüket, hogy 2026.08.13. és 2026.08.23. között szabadság miatt a gazdasági irodában az ügyintézés szünetel.
+
+Az ügyintézés céljából a pénztár 2026.08.24.-től áll az Önök rendelkezésére.
+
+Megértésüket köszönjük!
+
+Tatabánya, 2026. augusztus 6.
+
+Dezső Tibor
+
+intézményvezető
 
 </div>
 
