@@ -129,8 +129,6 @@ amelyeket átvételi elismervény ellenében az értékmegőrzőben helyeznek el
 
 ## Területi jogosultság
 
-<summary><strong>Hospice ellátás – települések listája</strong></summary>
-
 ### Települések
 
 Krónikus állapotú betegek
