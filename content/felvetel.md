@@ -129,7 +129,6 @@ amelyeket átvételi elismervény ellenében az értékmegőrzőben helyeznek el
 
 ## Területi jogosultság
 
-<details>
 <summary><strong>Hospice ellátás – települések listája</strong></summary>
 
 ### Települések
@@ -141,8 +140,6 @@ Krónikus állapotú betegek
 Tumoros betegek
 
 Baj, Héreg, Szárliget, Tardos, Tarján, Tata, Tatabánya, Vértesszőlős, Vértestolna
-
-</details>
 
 [Részletek az ellátásról →](/ellatas/)
 
